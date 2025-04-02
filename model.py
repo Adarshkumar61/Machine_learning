@@ -1,5 +1,5 @@
 # Creating a Model
-# we are using sonar scv file
+# we are using sonar csv file
 
 import numpy as np
 import pandas as pd
@@ -35,6 +35,11 @@ input_data_as_numpy = np.asarray(input_data)
 
 #reshaping numpy array:
 reshaped_array = input_data_as_numpy.reshape(1, -1)
+#- (1, -1) ka matlab hai ki hum array ko ek 2D array mein convert karna chahte hain, jismein:
+# - Pehele dimension mein 1 sample hai
+# - Dusre dimension mein utni hi features hain jitni ki zaroorat hai (is case mein, 60 features hain)
+# - -1 ka matlab hai ki hum dusre dimension ki sankhya ko automatically calculate karne ke liye numpy ko bol rahe hain
+
 
 prediction = model.predict(reshaped_array)
 print(prediction)
