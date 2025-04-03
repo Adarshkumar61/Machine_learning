@@ -24,7 +24,7 @@ model = LinearRegression()
 model.fit(x_train, y_train)
 
 x_train_prediction = model.predict(x_train)
-accuracy = accuracy_score(x_train_prediction, y_train)
+# accuracy = accuracy_score(x_train_prediction, y_train)
 
 #now we will make a predictive system:
 
