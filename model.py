@@ -1,4 +1,4 @@
-# Creating a Model
+# Creating a Model of linear regression:
 # we are using sonar csv file
 
 import numpy as np
