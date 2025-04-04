@@ -14,3 +14,4 @@ model_regression = list(map(model, x))
 
 plt.scatter(x,y)
 plt.plot(x, model_regression)
+plt.show()
