@@ -9,3 +9,7 @@ x = [3.5, 3.69, 3.44, 3.43, 4.34, 4.22, 2.37]
 y = [18, 15, 18, 16, 15, 14, 24]
 
 slope , r, p, intercept, stt_err = stats.linregress(x, y)
+
+def model(x):
+    return slope * x + intercept
+modell = list(map(model, x))
