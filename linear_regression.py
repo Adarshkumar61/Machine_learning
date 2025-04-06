@@ -1,4 +1,4 @@
-# example of simple linear_modell:
+# example of simple linear_model:
 import matplotlib.pyplot as plt
 from sklearn import linear_model
 import pandas as pd
@@ -13,3 +13,6 @@ slope , r, p, intercept, stt_err = stats.linregress(x, y)
 def model(x):
     return slope * x + intercept
 modell = list(map(model, x))
+plt.scatter(x, y)
+plt.plot(x, model)
+plt.show()
