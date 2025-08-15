@@ -7,6 +7,7 @@ There are 3 types of Ml
 3. Reinforcement learning
 
 1. supervised learning:
+<<<<<<< HEAD
 
  takes input and ouput to make prediction 
  we give alot of data to our model and their result and 
@@ -79,3 +80,13 @@ till now skills i have learnet:
 (i). CNN
 (ii). RNN
 12. Open_CV
+=======
+ takes input and ouput to make prediction 
+ we give alot of data to our model and their result and 
+ we train data
+ now after training we expect from model is to:
+ whenever there is new data it should make accurate prediction.
+
+ the more we give data the more accurate predictions will be more accurate.
+ 
+>>>>>>> 8efe8b3268ab83718ad8a619ab29a1fe9b1f13da
